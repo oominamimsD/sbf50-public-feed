@@ -1,32 +1,29 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-10-15T16:00:08Z**
-- feed_generated_utc: 2026-10-15T16:00:09+00:00
-- source_sha256: `0fb6da22ec8cd80357d5fa9d16014edd2b9136fd57d0f80e707edba89a5a2f8e`
+- market_observed_utc: **2026-10-15T16:15:06Z**
+- feed_generated_utc: 2026-10-15T16:15:08+00:00
+- source_sha256: `08a3d74217fcf3b84500944ad4ad43b1ce83a7b21dbc09a0a61e160fea9b8e33`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
-- API: 10/10 successful
-- tickers: 1208; contracts: 1200; crypto_prefilter: 1; crypto_deep: 1
+- API: 5/5 successful
+- tickers: 1208; contracts: 1200; crypto_prefilter: 0; crypto_deep: 0
 - snapshot_age_at_feed_build: 0.03 minutes (MUST RECHECK NOW against market_observed_utc)
 
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-10-15T16:00+00:00, close=82375.1, belowEMA20=False, EMA20down3=False
+- BTC Min15: closed_end=2026-10-15T16:15+00:00, close=82430.4, belowEMA20=False, EMA20down3=False
 - BTC Min60: closed_end=2026-10-15T16:00+00:00, close=82375.1, belowEMA20=False, EMA20down3=False
 - BTC Hour4: closed_end=2026-10-15T16:00+00:00, close=82375.1, belowEMA20=True, EMA20down3=True
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|COPPER_USDT|6.579000|-1.42|-1.58|-1.42|5033963|1.52|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|COPPER_USDT|6.579000|6.533000|6.579000|1.19|N|Y/Y|Y/Y|Y|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- COPPER_USDT: quote_utc=2026-10-15T15:59:59+00:00, last15m_closed_end=2026-10-15T16:00+00:00, prior8high=6.592000, depth_time=2026-10-15T16:00:07+00:00, book20_bid_proxy_usdt=1197248, book20_ask_proxy_usdt=925131, funding_indicative=0.000000, next_funding_utc=2026-10-15T20:00:00+00:00, funding_cycle_h=4, 24h_change=-1.42%, turnover=5033963. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
