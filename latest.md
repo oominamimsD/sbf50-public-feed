@@ -1,8 +1,8 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-10-16T09:30:12Z**
-- feed_generated_utc: 2026-10-16T09:30:14+00:00
-- source_sha256: `fa383be72e372deb45d00504320c9b72f5fc293f550609d6d6e5df6dfbdbec71`
+- market_observed_utc: **2026-10-16T09:45:13Z**
+- feed_generated_utc: 2026-10-16T09:45:14+00:00
+- source_sha256: `9350088fc9d4af4e188915467c7d69ab2f9639b62a8e8ccf4189074732bace00`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
 - API: 20/20 successful
 - tickers: 1196; contracts: 1188; crypto_prefilter: 3; crypto_deep: 3
@@ -11,28 +11,28 @@
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-10-16T09:30+00:00, close=82117.4, belowEMA20=True, EMA20down3=False
+- BTC Min15: closed_end=2026-10-16T09:45+00:00, close=82099.9, belowEMA20=True, EMA20down3=True
 - BTC Min60: closed_end=2026-10-16T09:00+00:00, close=82209, belowEMA20=False, EMA20down3=False
 - BTC Hour4: closed_end=2026-10-16T08:00+00:00, close=82258.6, belowEMA20=True, EMA20down3=True
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|STRK_USDT|0.078910|-18.10|31.16|-17.79|46519153|1.27|
-|AKE_USDT|0.030092|-4.78|3.68|-4.47|21305474|1.66|
-|NIL_USDT|0.083190|-4.24|-3.92|-3.93|7353389|2.40|
+|STRK_USDT|0.079040|-17.97|31.38|-17.63|46690145|1.26|
+|NIL_USDT|0.083130|-4.31|-3.99|-3.97|7378907|3.61|
+|AKE_USDT|0.030307|-4.10|4.42|-3.76|21343198|0.33|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|AKE_USDT|0.030092|0.028483|0.030092|1.91|N|N/Y|N/N|Y|N|
-|NIL_USDT|0.083190|0.082730|0.083190|0.76|N|Y/Y|Y/N|Y|N|
-|STRK_USDT|0.078910|0.077970|0.078910|0.84|N|Y/Y|Y/Y|Y|N|
+|AKE_USDT|0.030307|0.028483|0.030307|0.40|N|N/Y|N/N|Y|N|
+|NIL_USDT|0.083130|0.082730|0.083130|1.04|N|Y/Y|Y/N|Y|N|
+|STRK_USDT|0.079040|0.077970|0.079040|1.01|N|Y/Y|Y/Y|Y|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- AKE_USDT: quote_utc=2026-10-16T09:29:59+00:00, last15m_closed_end=2026-10-16T09:30+00:00, prior8high=0.031827, depth_time=2026-10-16T09:30:08+00:00, book20_bid_proxy_usdt=14959, book20_ask_proxy_usdt=15574, funding_indicative=0.000050, next_funding_utc=2026-10-16T12:00:00+00:00, funding_cycle_h=4, 24h_change=-4.78%, turnover=21305474. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- NIL_USDT: quote_utc=2026-10-16T09:30:00+00:00, last15m_closed_end=2026-10-16T09:30+00:00, prior8high=0.085460, depth_time=2026-10-16T09:30:10+00:00, book20_bid_proxy_usdt=28008, book20_ask_proxy_usdt=27573, funding_indicative=0.000050, next_funding_utc=2026-10-16T12:00:00+00:00, funding_cycle_h=4, 24h_change=-4.24%, turnover=7353389. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- STRK_USDT: quote_utc=2026-10-16T09:29:59+00:00, last15m_closed_end=2026-10-16T09:30+00:00, prior8high=0.082690, depth_time=2026-10-16T09:30:07+00:00, book20_bid_proxy_usdt=296992, book20_ask_proxy_usdt=675806, funding_indicative=0.000022, next_funding_utc=2026-10-16T12:00:00+00:00, funding_cycle_h=4, 24h_change=-18.10%, turnover=46519153. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- AKE_USDT: quote_utc=2026-10-16T09:45:01+00:00, last15m_closed_end=2026-10-16T09:45+00:00, prior8high=0.031827, depth_time=2026-10-16T09:45:12+00:00, book20_bid_proxy_usdt=15327, book20_ask_proxy_usdt=12863, funding_indicative=0.000050, next_funding_utc=2026-10-16T12:00:00+00:00, funding_cycle_h=4, 24h_change=-4.10%, turnover=21343198. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- NIL_USDT: quote_utc=2026-10-16T09:45:01+00:00, last15m_closed_end=2026-10-16T09:45+00:00, prior8high=0.085260, depth_time=2026-10-16T09:45:09+00:00, book20_bid_proxy_usdt=22146, book20_ask_proxy_usdt=17775, funding_indicative=0.000050, next_funding_utc=2026-10-16T12:00:00+00:00, funding_cycle_h=4, 24h_change=-4.31%, turnover=7378907. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- STRK_USDT: quote_utc=2026-10-16T09:45:01+00:00, last15m_closed_end=2026-10-16T09:45+00:00, prior8high=0.081430, depth_time=2026-10-16T09:45:07+00:00, book20_bid_proxy_usdt=561416, book20_ask_proxy_usdt=664210, funding_indicative=0.000033, next_funding_utc=2026-10-16T12:00:00+00:00, funding_cycle_h=4, 24h_change=-17.97%, turnover=46690145. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
