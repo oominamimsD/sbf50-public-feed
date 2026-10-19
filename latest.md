@@ -1,38 +1,44 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-10-19T07:30:12Z**
-- feed_generated_utc: 2026-10-19T07:30:14+00:00
-- source_sha256: `551d4f9ff23b0fd698a8a44604e9572508c84d07e393d4ba25b53d026b59e620`
+- market_observed_utc: **2026-10-19T07:45:19Z**
+- feed_generated_utc: 2026-10-19T07:45:20+00:00
+- source_sha256: `e915808b32f5a3c1f37a080fd8bc0ee91789fff7219cc036dfacd002cfa5aba1`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
-- API: 20/20 successful
-- tickers: 1203; contracts: 1195; crypto_prefilter: 3; crypto_deep: 3
+- API: 30/30 successful
+- tickers: 1203; contracts: 1195; crypto_prefilter: 5; crypto_deep: 5
 - snapshot_age_at_feed_build: 0.03 minutes (MUST RECHECK NOW against market_observed_utc)
 
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-10-19T07:30+00:00, close=82846.9, belowEMA20=False, EMA20down3=False
+- BTC Min15: closed_end=2026-10-19T07:45+00:00, close=82852.2, belowEMA20=False, EMA20down3=False
 - BTC Min60: closed_end=2026-10-19T07:00+00:00, close=82812.7, belowEMA20=False, EMA20down3=False
 - BTC Hour4: closed_end=2026-10-19T04:00+00:00, close=82496.1, belowEMA20=False, EMA20down3=False
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|BTW_USDT|2.240600|-2.81|33.19|-4.91|21848122|0.45|
-|STRK_USDT|0.059900|-2.69|-49.77|-4.79|17653493|1.67|
-|TIA_USDT|0.611700|-1.00|3.90|-3.10|56800281|1.63|
+|ICNT_USDT|0.168200|-6.24|58.67|-8.35|7068285|5.95|
+|BTW_USDT|2.221500|-3.63|32.05|-5.74|21952003|1.80|
+|STRK_USDT|0.059670|-3.07|-49.97|-5.18|17868017|1.68|
+|TIA_USDT|0.616300|-0.25|4.68|-2.36|57188763|3.25|
+|Q_USDT|0.122224|0.20|331.55|-1.91|15424880|0.66|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|BTW_USDT|2.240600|2.166400|2.240600|1.14|N|Y/Y|N/N|N|N|
-|STRK_USDT|0.059900|0.059350|0.059900|2.46|N|Y/Y|Y/Y|N|N|
-|TIA_USDT|0.611700|0.605400|0.611700|0.45|N|Y/Y|Y/Y|N|N|
+|BTW_USDT|2.221500|2.166400|2.222400|0.68|N|Y/Y|N/N|N|N|
+|ICNT_USDT|0.168200|0.167000|0.168200|0.38|N|Y/Y|N/N|N|N|
+|Q_USDT|0.122224|0.115540|0.121979|0.61|N|N/N|N/N|N|N|
+|STRK_USDT|0.059670|0.059350|0.059670|2.23|N|Y/Y|Y/Y|N|N|
+|TIA_USDT|0.616300|0.606800|0.616200|1.14|N|Y/Y|Y/Y|N|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- BTW_USDT: quote_utc=2026-10-19T07:29:59+00:00, last15m_closed_end=2026-10-19T07:30+00:00, prior8high=2.321000, depth_time=2026-10-19T07:30:06+00:00, book20_bid_proxy_usdt=13678, book20_ask_proxy_usdt=7182, funding_indicative=-0.000249, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-2.81%, turnover=21848122. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- STRK_USDT: quote_utc=2026-10-19T07:29:59+00:00, last15m_closed_end=2026-10-19T07:30+00:00, prior8high=0.060780, depth_time=2026-10-19T07:30:09+00:00, book20_bid_proxy_usdt=578555, book20_ask_proxy_usdt=648750, funding_indicative=0.000050, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-2.69%, turnover=17653493. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- TIA_USDT: quote_utc=2026-10-19T07:29:59+00:00, last15m_closed_end=2026-10-19T07:30+00:00, prior8high=0.616500, depth_time=2026-10-19T07:30:11+00:00, book20_bid_proxy_usdt=169268, book20_ask_proxy_usdt=291450, funding_indicative=-0.000041, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-1.00%, turnover=56800281. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- BTW_USDT: quote_utc=2026-10-19T07:45:01+00:00, last15m_closed_end=2026-10-19T07:45+00:00, prior8high=2.321000, depth_time=2026-10-19T07:45:10+00:00, book20_bid_proxy_usdt=12646, book20_ask_proxy_usdt=13993, funding_indicative=-0.000271, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-3.63%, turnover=21952003. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ICNT_USDT: quote_utc=2026-10-19T07:45:01+00:00, last15m_closed_end=2026-10-19T07:45+00:00, prior8high=0.189100, depth_time=2026-10-19T07:45:07+00:00, book20_bid_proxy_usdt=144652, book20_ask_proxy_usdt=107183, funding_indicative=-0.000045, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-6.24%, turnover=7068285. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- Q_USDT: quote_utc=2026-10-19T07:45:01+00:00, last15m_closed_end=2026-10-19T07:45+00:00, prior8high=0.216121, depth_time=2026-10-19T07:45:18+00:00, book20_bid_proxy_usdt=13923, book20_ask_proxy_usdt=15615, funding_indicative=-0.001203, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=0.20%, turnover=15424880. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- STRK_USDT: quote_utc=2026-10-19T07:45:01+00:00, last15m_closed_end=2026-10-19T07:45+00:00, prior8high=0.060510, depth_time=2026-10-19T07:45:10+00:00, book20_bid_proxy_usdt=1271311, book20_ask_proxy_usdt=770649, funding_indicative=0.000050, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-3.07%, turnover=17868017. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- TIA_USDT: quote_utc=2026-10-19T07:45:01+00:00, last15m_closed_end=2026-10-19T07:45+00:00, prior8high=0.616500, depth_time=2026-10-19T07:45:14+00:00, book20_bid_proxy_usdt=259044, book20_ask_proxy_usdt=259058, funding_indicative=-0.000042, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-0.25%, turnover=57188763. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
