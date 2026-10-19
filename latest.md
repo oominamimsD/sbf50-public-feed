@@ -1,41 +1,41 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-10-19T04:45:16Z**
-- feed_generated_utc: 2026-10-19T04:45:17+00:00
-- source_sha256: `0c2be6531b2bb8438881d404e738c346f0f2be73bdf816e11c94ee22911f7b2d`
+- market_observed_utc: **2026-10-19T05:00:15Z**
+- feed_generated_utc: 2026-10-19T05:00:16+00:00
+- source_sha256: `561afd4ae175738ff33356589a6fec6c33131296638fe66fb8eec4cd9d192300`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
 - API: 25/25 successful
-- tickers: 1202; contracts: 1194; crypto_prefilter: 4; crypto_deep: 4
+- tickers: 1203; contracts: 1195; crypto_prefilter: 4; crypto_deep: 4
 - snapshot_age_at_feed_build: 0.03 minutes (MUST RECHECK NOW against market_observed_utc)
 
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-10-19T04:45+00:00, close=82748.2, belowEMA20=False, EMA20down3=False
-- BTC Min60: closed_end=2026-10-19T04:00+00:00, close=82496.1, belowEMA20=False, EMA20down3=False
+- BTC Min15: closed_end=2026-10-19T05:00+00:00, close=82748.7, belowEMA20=False, EMA20down3=False
+- BTC Min60: closed_end=2026-10-19T05:00+00:00, close=82748.7, belowEMA20=False, EMA20down3=False
 - BTC Hour4: closed_end=2026-10-19T04:00+00:00, close=82496.1, belowEMA20=False, EMA20down3=False
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|BTW_USDT|2.261300|-1.91|34.42|-3.89|21989543|1.77|
-|STRK_USDT|0.060400|-1.88|-49.35|-3.86|17332056|1.66|
-|HBAR_USDT|0.084410|-1.59|-9.99|-3.57|50978230|1.19|
-|TIA_USDT|0.610000|-1.27|3.61|-3.25|56657169|3.28|
+|STRK_USDT|0.060000|-2.53|-49.69|-4.51|17703657|1.67|
+|BTW_USDT|2.260500|-1.94|34.37|-3.92|22086839|0.89|
+|TIA_USDT|0.607600|-1.66|3.21|-3.64|57094479|1.65|
+|HBAR_USDT|0.084370|-1.64|-10.03|-3.62|51101798|1.19|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|BTW_USDT|2.261300|2.217800|2.258400|1.18|N|Y/Y|N/N|N|N|
-|HBAR_USDT|0.084410|0.083810|0.084410|0.37|N|Y/Y|Y/Y|N|N|
-|STRK_USDT|0.060400|0.059440|0.060400|1.43|N|Y/Y|Y/Y|N|N|
-|TIA_USDT|0.610000|0.607400|0.610000|0.38|N|Y/Y|Y/Y|N|N|
+|BTW_USDT|2.260500|2.217800|2.260400|0.73|N|Y/Y|N/N|N|N|
+|HBAR_USDT|0.084370|0.083880|0.084370|0.78|N|Y/Y|Y/Y|N|N|
+|STRK_USDT|0.060000|0.059440|0.060000|3.81|N|Y/Y|Y/Y|N|N|
+|TIA_USDT|0.607600|0.607400|0.607600|1.11|N|Y/Y|Y/Y|N|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- BTW_USDT: quote_utc=2026-10-19T04:45:02+00:00, last15m_closed_end=2026-10-19T04:45+00:00, prior8high=2.328900, depth_time=2026-10-19T04:45:06+00:00, book20_bid_proxy_usdt=10656, book20_ask_proxy_usdt=13164, funding_indicative=-0.000084, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-1.91%, turnover=21989543. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- HBAR_USDT: quote_utc=2026-10-19T04:45:02+00:00, last15m_closed_end=2026-10-19T04:45+00:00, prior8high=0.084590, depth_time=2026-10-19T04:45:11+00:00, book20_bid_proxy_usdt=973896, book20_ask_proxy_usdt=690238, funding_indicative=-0.000037, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=8, 24h_change=-1.59%, turnover=50978230. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- STRK_USDT: quote_utc=2026-10-19T04:45:02+00:00, last15m_closed_end=2026-10-19T04:45+00:00, prior8high=0.061260, depth_time=2026-10-19T04:45:09+00:00, book20_bid_proxy_usdt=892333, book20_ask_proxy_usdt=640994, funding_indicative=0.000038, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-1.88%, turnover=17332056. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- TIA_USDT: quote_utc=2026-10-19T04:45:02+00:00, last15m_closed_end=2026-10-19T04:45+00:00, prior8high=0.623800, depth_time=2026-10-19T04:45:14+00:00, book20_bid_proxy_usdt=297963, book20_ask_proxy_usdt=236317, funding_indicative=0.000025, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-1.27%, turnover=56657169. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- BTW_USDT: quote_utc=2026-10-19T04:59:59+00:00, last15m_closed_end=2026-10-19T05:00+00:00, prior8high=2.328900, depth_time=2026-10-19T05:00:09+00:00, book20_bid_proxy_usdt=8128, book20_ask_proxy_usdt=9267, funding_indicative=-0.000052, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-1.94%, turnover=22086839. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- HBAR_USDT: quote_utc=2026-10-19T04:59:59+00:00, last15m_closed_end=2026-10-19T05:00+00:00, prior8high=0.084590, depth_time=2026-10-19T05:00:14+00:00, book20_bid_proxy_usdt=730186, book20_ask_proxy_usdt=884122, funding_indicative=-0.000037, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=8, 24h_change=-1.64%, turnover=51101798. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- STRK_USDT: quote_utc=2026-10-19T04:59:59+00:00, last15m_closed_end=2026-10-19T05:00+00:00, prior8high=0.061120, depth_time=2026-10-19T05:00:06+00:00, book20_bid_proxy_usdt=668994, book20_ask_proxy_usdt=648440, funding_indicative=0.000041, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-2.53%, turnover=17703657. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- TIA_USDT: quote_utc=2026-10-19T04:59:59+00:00, last15m_closed_end=2026-10-19T05:00+00:00, prior8high=0.623800, depth_time=2026-10-19T05:00:11+00:00, book20_bid_proxy_usdt=189923, book20_ask_proxy_usdt=423959, funding_indicative=0.000028, next_funding_utc=2026-10-19T08:00:00+00:00, funding_cycle_h=4, 24h_change=-1.66%, turnover=57094479. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
