@@ -1,17 +1,17 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-10-20T16:30:07Z**
-- feed_generated_utc: 2026-10-20T16:30:09+00:00
-- source_sha256: `f63615c36148a41802fcf512277790981ff86ed9178d02638d8d4e61cc21877b`
+- market_observed_utc: **2026-10-20T16:45:06Z**
+- feed_generated_utc: 2026-10-20T16:45:09+00:00
+- source_sha256: `bcd58408e7cb51971e3d672936aa89d6a3eeef9f940f99efe36117eeb8d21b56`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
 - API: 5/5 successful
 - tickers: 1202; contracts: 1194; crypto_prefilter: 0; crypto_deep: 0
-- snapshot_age_at_feed_build: 0.04 minutes (MUST RECHECK NOW against market_observed_utc)
+- snapshot_age_at_feed_build: 0.05 minutes (MUST RECHECK NOW against market_observed_utc)
 
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-10-20T16:30+00:00, close=82462, belowEMA20=False, EMA20down3=False
+- BTC Min15: closed_end=2026-10-20T16:45+00:00, close=82541.8, belowEMA20=False, EMA20down3=False
 - BTC Min60: closed_end=2026-10-20T16:00+00:00, close=82581.9, belowEMA20=False, EMA20down3=False
 - BTC Hour4: closed_end=2026-10-20T16:00+00:00, close=82581.9, belowEMA20=False, EMA20down3=True
 
