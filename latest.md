@@ -1,8 +1,8 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-11-05T16:15:05Z**
-- feed_generated_utc: 2026-11-05T16:15:05+00:00
-- source_sha256: `dd0eff1ad224603a53e51e64a0207c1bc7ac9010191f849a6380c703479357ed`
+- market_observed_utc: **2026-11-05T16:30:05Z**
+- feed_generated_utc: 2026-11-05T16:30:06+00:00
+- source_sha256: `777b26f89761b01c71374eb62e0d5fa4e82762716e4f3ee6dba10360056ff424`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
 - API: 5/5 successful
 - tickers: 1193; contracts: 1185; crypto_prefilter: 0; crypto_deep: 0
@@ -11,7 +11,7 @@
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-11-05T16:15+00:00, close=76310.5, belowEMA20=True, EMA20down3=True
+- BTC Min15: closed_end=2026-11-05T16:30+00:00, close=76822.5, belowEMA20=True, EMA20down3=True
 - BTC Min60: closed_end=2026-11-05T16:00+00:00, close=76013.2, belowEMA20=True, EMA20down3=True
 - BTC Hour4: closed_end=2026-11-05T16:00+00:00, close=76013.2, belowEMA20=True, EMA20down3=False
 
