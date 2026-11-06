@@ -1,32 +1,32 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-11-06T17:15:08Z**
-- feed_generated_utc: 2026-11-06T17:15:09+00:00
-- source_sha256: `9b4b7907f36f8187d80c99fcea43f97f96c1920c42b773978dca7f1733b2604b`
+- market_observed_utc: **2026-11-06T17:30:09Z**
+- feed_generated_utc: 2026-11-06T17:30:10+00:00
+- source_sha256: `06b97c741549235066f5df7629cc60939dc15aab819938fddb9b2077b4e9c92f`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
 - API: 10/10 successful
 - tickers: 1198; contracts: 1190; crypto_prefilter: 1; crypto_deep: 1
-- snapshot_age_at_feed_build: 0.03 minutes (MUST RECHECK NOW against market_observed_utc)
+- snapshot_age_at_feed_build: 0.02 minutes (MUST RECHECK NOW against market_observed_utc)
 
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-11-06T17:15+00:00, close=75928.1, belowEMA20=False, EMA20down3=False
+- BTC Min15: closed_end=2026-11-06T17:30+00:00, close=75856.9, belowEMA20=False, EMA20down3=False
 - BTC Min60: closed_end=2026-11-06T17:00+00:00, close=75978.4, belowEMA20=True, EMA20down3=True
 - BTC Hour4: closed_end=2026-11-06T16:00+00:00, close=75832.8, belowEMA20=True, EMA20down3=True
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|ANTHROPIC_USDT|1356.410000|-5.22|-19.08|-5.32|5733512|0.15|
+|ANTHROPIC_USDT|1357.240000|-5.16|-19.03|-5.18|5842560|1.77|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|ANTHROPIC_USDT|1356.410000|1378.500000|1356.410000|0.54|N|Y/Y|Y/Y|Y|N|
+|ANTHROPIC_USDT|1357.240000|1355.040000|1357.520000|1.80|N|Y/Y|Y/Y|Y|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- ANTHROPIC_USDT: quote_utc=2026-11-06T17:15:03+00:00, last15m_closed_end=2026-11-06T17:15+00:00, prior8high=1468.440000, depth_time=2026-11-06T17:15:07+00:00, book20_bid_proxy_usdt=38497, book20_ask_proxy_usdt=7299, funding_indicative=0.000050, next_funding_utc=2026-11-07T00:00:00+00:00, funding_cycle_h=8, 24h_change=-5.22%, turnover=5733512. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ANTHROPIC_USDT: quote_utc=2026-11-06T17:30:01+00:00, last15m_closed_end=2026-11-06T17:30+00:00, prior8high=1465.210000, depth_time=2026-11-06T17:30:08+00:00, book20_bid_proxy_usdt=10447, book20_ask_proxy_usdt=25313, funding_indicative=0.000050, next_funding_utc=2026-11-07T00:00:00+00:00, funding_cycle_h=8, 24h_change=-5.16%, turnover=5842560. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
