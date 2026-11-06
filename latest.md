@@ -1,35 +1,38 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-11-06T15:30:10Z**
-- feed_generated_utc: 2026-11-06T15:30:11+00:00
-- source_sha256: `51f4fbb24b2ba8ee6ec5a0dd21abe6193f60176c738556a717c21451795ef6c6`
+- market_observed_utc: **2026-11-06T15:45:13Z**
+- feed_generated_utc: 2026-11-06T15:45:14+00:00
+- source_sha256: `c2008bc10ca5ca5bb645c16d26ba4879c3fa4257fd556791f8a8e4895938ecfc`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
-- API: 15/15 successful
-- tickers: 1198; contracts: 1190; crypto_prefilter: 2; crypto_deep: 2
-- snapshot_age_at_feed_build: 0.03 minutes (MUST RECHECK NOW against market_observed_utc)
+- API: 20/20 successful
+- tickers: 1198; contracts: 1190; crypto_prefilter: 3; crypto_deep: 3
+- snapshot_age_at_feed_build: 0.02 minutes (MUST RECHECK NOW against market_observed_utc)
 
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-11-06T15:30+00:00, close=75618.4, belowEMA20=True, EMA20down3=True
+- BTC Min15: closed_end=2026-11-06T15:45+00:00, close=75696.5, belowEMA20=True, EMA20down3=True
 - BTC Min60: closed_end=2026-11-06T15:00+00:00, close=75511.6, belowEMA20=True, EMA20down3=True
 - BTC Hour4: closed_end=2026-11-06T12:00+00:00, close=76114.1, belowEMA20=True, EMA20down3=True
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|XRP_USDT|1.185000|-4.78|-9.50|-4.22|472832832|0.84|
-|BCH_USDT|269.010000|-3.62|-6.68|-3.06|6545744|3.72|
+|XRP_USDT|1.186000|-4.70|-9.43|-4.26|478063600|0.84|
+|BCH_USDT|269.100000|-3.58|-6.65|-3.14|6556158|3.72|
+|XPL_USDT|0.057450|-1.92|-27.21|-1.48|11554148|1.74|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|BCH_USDT|269.010000|264.300000|269.010000|0.43|N|Y/Y|Y/Y|Y|N|
-|XRP_USDT|1.185000|1.173700|1.185500|1.20|N|Y/Y|Y/Y|Y|N|
+|BCH_USDT|269.100000|264.300000|269.100000|0.25|N|Y/Y|Y/Y|Y|N|
+|XPL_USDT|0.057450|0.057110|0.057480|1.58|N|Y/Y|Y/Y|Y|N|
+|XRP_USDT|1.186000|1.173700|1.186000|1.22|N|Y/Y|Y/Y|Y|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- BCH_USDT: quote_utc=2026-11-06T15:29:59+00:00, last15m_closed_end=2026-11-06T15:30+00:00, prior8high=269.870000, depth_time=2026-11-06T15:30:09+00:00, book20_bid_proxy_usdt=54468, book20_ask_proxy_usdt=67869, funding_indicative=-0.000042, next_funding_utc=2026-11-06T16:00:00+00:00, funding_cycle_h=8, 24h_change=-3.62%, turnover=6545744. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- XRP_USDT: quote_utc=2026-11-06T15:30:03+00:00, last15m_closed_end=2026-11-06T15:30+00:00, prior8high=1.193600, depth_time=2026-11-06T15:30:07+00:00, book20_bid_proxy_usdt=3433986, book20_ask_proxy_usdt=2589452, funding_indicative=0.000061, next_funding_utc=2026-11-06T16:00:00+00:00, funding_cycle_h=8, 24h_change=-4.78%, turnover=472832832. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- BCH_USDT: quote_utc=2026-11-06T15:45:02+00:00, last15m_closed_end=2026-11-06T15:45+00:00, prior8high=269.870000, depth_time=2026-11-06T15:45:10+00:00, book20_bid_proxy_usdt=58558, book20_ask_proxy_usdt=65398, funding_indicative=-0.000042, next_funding_utc=2026-11-06T16:00:00+00:00, funding_cycle_h=8, 24h_change=-3.58%, turnover=6556158. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- XPL_USDT: quote_utc=2026-11-06T15:45:02+00:00, last15m_closed_end=2026-11-06T15:45+00:00, prior8high=0.058620, depth_time=2026-11-06T15:45:12+00:00, book20_bid_proxy_usdt=395542, book20_ask_proxy_usdt=370563, funding_indicative=0.000050, next_funding_utc=2026-11-06T16:00:00+00:00, funding_cycle_h=4, 24h_change=-1.92%, turnover=11554148. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- XRP_USDT: quote_utc=2026-11-06T15:45:02+00:00, last15m_closed_end=2026-11-06T15:45+00:00, prior8high=1.193600, depth_time=2026-11-06T15:45:07+00:00, book20_bid_proxy_usdt=4125879, book20_ask_proxy_usdt=2225889, funding_indicative=0.000056, next_funding_utc=2026-11-06T16:00:00+00:00, funding_cycle_h=8, 24h_change=-4.70%, turnover=478063600. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
