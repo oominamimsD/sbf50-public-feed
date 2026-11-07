@@ -1,79 +1,82 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-11-07T14:45:45Z**
-- feed_generated_utc: 2026-11-07T14:45:47+00:00
-- source_sha256: `e87d8e9749ba06c228cc43d0e8e5c0debfdc196c6c34dcb1ec05594c1b1f15c9`
+- market_observed_utc: **2026-11-07T15:00:47Z**
+- feed_generated_utc: 2026-11-07T15:00:48+00:00
+- source_sha256: `58584df9e613975d48dcc98fcd01f1e9a07d9d4787001d9c96dcb2e490f6ba3c`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
 - API: 80/80 successful
-- tickers: 1198; contracts: 1190; crypto_prefilter: 20; crypto_deep: 15
-- snapshot_age_at_feed_build: 0.04 minutes (MUST RECHECK NOW against market_observed_utc)
+- tickers: 1198; contracts: 1190; crypto_prefilter: 23; crypto_deep: 15
+- snapshot_age_at_feed_build: 0.02 minutes (MUST RECHECK NOW against market_observed_utc)
 
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-11-07T14:45+00:00, close=75921, belowEMA20=True, EMA20down3=True
-- BTC Min60: closed_end=2026-11-07T14:00+00:00, close=75903, belowEMA20=True, EMA20down3=True
+- BTC Min15: closed_end=2026-11-07T15:00+00:00, close=75916.4, belowEMA20=True, EMA20down3=True
+- BTC Min60: closed_end=2026-11-07T15:00+00:00, close=75916.4, belowEMA20=True, EMA20down3=True
 - BTC Hour4: closed_end=2026-11-07T12:00+00:00, close=75945.1, belowEMA20=True, EMA20down3=True
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|UAI_USDT|0.125400|-34.00|-52.78|-34.11|24138190|7.98|
-|PUMPFUN_USDT|0.003776|-6.65|-8.05|-6.76|13476999|2.65|
-|ZEC_USDT|1277.140000|-5.42|4.09|-5.53|2110160732|0.08|
-|LIT_USDT|3.246100|-4.31|14.93|-4.42|11898572|0.31|
-|TRUMPOFFICIAL_USDT|1.191000|-4.10|-24.23|-4.21|8782775|8.40|
-|ENA_USDT|0.161180|-3.77|-15.11|-3.88|30436277|0.62|
-|DOT_USDT|0.903000|-3.63|-6.83|-3.74|5979175|1.11|
-|PEPE_USDT|0.000005|-3.11|-2.72|-3.22|72016992|0.20|
-|FARTCOIN_USDT|0.116390|-3.03|-3.25|-3.14|7952181|0.86|
-|ONDO_USDT|0.365100|-3.02|-8.58|-3.13|10439441|2.74|
-|ADA_USDT|0.182900|-2.76|-5.03|-2.87|21916805|5.47|
-|DASH_USDT|46.620000|-2.75|-4.93|-2.86|9375086|2.15|
-|XLM_USDT|0.151840|-2.08|-11.84|-2.19|20840918|0.66|
-|WLD_USDT|0.338000|-1.97|-17.94|-2.08|28394692|2.96|
-|XRP_USDT|1.167600|-1.66|-6.92|-1.77|279855817|0.86|
-|AVAX_USDT|8.272000|-1.61|-0.91|-1.72|11291595|1.21|
-|INJ_USDT|8.180000|-1.58|14.83|-1.69|29358208|1.22|
-|DOGE_USDT|0.071960|-1.54|-5.09|-1.65|61981877|1.39|
-|SUI_USDT|0.862100|-1.25|-3.03|-1.36|30370275|1.16|
-|NEAR_USDT|3.718000|-1.06|-13.97|-1.17|31003043|2.69|
+|UAI_USDT|0.126600|-33.36|-52.33|-33.47|22022349|7.90|
+|PUMPFUN_USDT|0.003743|-7.46|-8.86|-7.57|13180387|2.67|
+|BTW_USDT|1.125600|-6.20|-6.16|-6.31|5821323|1.78|
+|ZEC_USDT|1271.850000|-5.81|3.66|-5.92|1980851318|0.32|
+|ANTHROPIC_USDT|1372.860000|-5.55|-18.10|-5.66|7564228|2.91|
+|ENA_USDT|0.160250|-5.44|-15.60|-5.55|29037602|0.62|
+|TRUMPOFFICIAL_USDT|1.188000|-5.26|-24.42|-5.37|7883542|8.42|
+|LIT_USDT|3.240500|-4.33|14.74|-4.44|11144956|0.31|
+|DOT_USDT|0.900400|-3.92|-7.09|-4.03|5619481|1.11|
+|WLD_USDT|0.336400|-3.61|-18.32|-3.72|25640152|2.97|
+|PEPE_USDT|0.000005|-3.55|-3.17|-3.66|61320665|0.61|
+|FARTCOIN_USDT|0.116110|-3.26|-3.48|-3.37|6941043|0.86|
+|ONDO_USDT|0.364200|-3.21|-8.81|-3.32|9659979|2.75|
+|ADA_USDT|0.182600|-2.82|-5.19|-2.93|19455126|5.47|
+|DASH_USDT|46.540000|-2.73|-5.09|-2.84|7899021|2.15|
+|XLM_USDT|0.151870|-2.08|-11.82|-2.19|19663976|0.66|
+|AVAX_USDT|8.253000|-1.89|-1.13|-2.00|9052288|1.21|
+|INJ_USDT|8.165000|-1.76|14.62|-1.87|26025561|1.23|
+|XRP_USDT|1.167400|-1.68|-6.94|-1.79|254137538|0.86|
+|NEAR_USDT|3.703000|-1.64|-14.32|-1.75|26262235|2.70|
+|DOGE_USDT|0.071850|-1.44|-5.23|-1.55|52920310|1.39|
+|SUI_USDT|0.860700|-1.42|-3.19|-1.53|27681399|1.16|
+|HYPE_USDT|77.836000|-1.04|-15.71|-1.15|25719834|0.13|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|ADA_USDT|0.182900|0.182100|0.182900|0.31|N|Y/Y|Y/Y|Y|N|
-|DASH_USDT|46.620000|46.370000|46.620000|1.47|N|Y/Y|N/N|Y|N|
-|DOT_USDT|0.903000|0.899300|0.902900|1.38|N|Y/Y|Y/Y|Y|N|
-|ENA_USDT|0.161180|0.159800|0.161170|7.71|N|Y/Y|Y/Y|Y|N|
-|FARTCOIN_USDT|0.116390|0.115570|0.116380|0.44|N|Y/Y|Y/Y|Y|N|
-|LIT_USDT|3.246100|3.199900|3.244900|0.47|N|Y/Y|Y/N|Y|N|
-|ONDO_USDT|0.365100|0.363400|0.365100|0.16|N|Y/Y|Y/Y|Y|N|
-|PEPE_USDT|0.000005|0.000005|0.000005|0.98|N|Y/Y|Y/Y|Y|N|
-|PUMPFUN_USDT|0.003776|0.003737|0.003776|0.75|N|Y/Y|Y/Y|Y|N|
-|TRUMPOFFICIAL_USDT|1.191000|1.182000|1.191000|2.87|N|N/Y|Y/Y|Y|N|
-|UAI_USDT|0.125400|0.121600|0.125400|0.77|N|Y/Y|Y/Y|Y|N|
-|WLD_USDT|0.338000|0.336300|0.338000|0.51|N|Y/Y|Y/Y|Y|N|
-|XLM_USDT|0.151840|0.151450|0.151840|0.91|N|Y/Y|Y/Y|Y|N|
-|XRP_USDT|1.167600|1.158500|1.167500|0.82|N|Y/Y|Y/Y|Y|N|
-|ZEC_USDT|1277.140000|1269.810000|1277.230000|0.53|N|Y/Y|Y/N|Y|N|
+|ADA_USDT|0.182600|0.182100|0.182600|0.58|N|Y/Y|Y/Y|Y|N|
+|ANTHROPIC_USDT|1372.860000|1375.260000|1372.860000|16.59|Y|Y/N|Y/Y|Y|N|
+|BTW_USDT|1.125600|1.111800|1.125600|0.71|N|Y/Y|N/N|Y|N|
+|DASH_USDT|46.540000|46.370000|46.540000|5.20|N|Y/Y|N/N|Y|N|
+|DOT_USDT|0.900400|0.899300|0.900400|2.25|N|Y/Y|Y/Y|Y|N|
+|ENA_USDT|0.160250|0.159800|0.160250|5.28|N|Y/Y|Y/Y|Y|N|
+|FARTCOIN_USDT|0.116110|0.115720|0.116100|0.60|N|Y/Y|Y/Y|Y|N|
+|LIT_USDT|3.240500|3.200800|3.240500|0.46|N|Y/Y|Y/N|Y|N|
+|ONDO_USDT|0.364200|0.363500|0.364200|1.45|N|Y/Y|Y/Y|Y|N|
+|PEPE_USDT|0.000005|0.000005|0.000005|1.39|N|Y/Y|Y/Y|Y|N|
+|PUMPFUN_USDT|0.003743|0.003737|0.003742|3.22|N|Y/Y|Y/Y|Y|N|
+|TRUMPOFFICIAL_USDT|1.188000|1.182000|1.188000|7.45|N|Y/Y|Y/Y|Y|N|
+|UAI_USDT|0.126600|0.121600|0.126800|1.07|N|Y/Y|Y/Y|Y|N|
+|WLD_USDT|0.336400|0.336300|0.336400|2.72|N|Y/Y|Y/Y|Y|N|
+|ZEC_USDT|1271.850000|1269.810000|1271.550000|1.47|N|Y/Y|Y/N|Y|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- ADA_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.183100, depth_time=2026-11-07T14:45:34+00:00, book20_bid_proxy_usdt=8519151, book20_ask_proxy_usdt=8429990, funding_indicative=0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-2.76%, turnover=21916805. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- DASH_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=46.890000, depth_time=2026-11-07T14:45:36+00:00, book20_bid_proxy_usdt=573201, book20_ask_proxy_usdt=698993, funding_indicative=0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-2.75%, turnover=9375086. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- DOT_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.906000, depth_time=2026-11-07T14:45:21+00:00, book20_bid_proxy_usdt=505561, book20_ask_proxy_usdt=427004, funding_indicative=-0.000046, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-3.63%, turnover=5979175. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- ENA_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.162700, depth_time=2026-11-07T14:45:17+00:00, book20_bid_proxy_usdt=192296, book20_ask_proxy_usdt=375998, funding_indicative=0.000050, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-3.77%, turnover=30436277. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- FARTCOIN_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.116830, depth_time=2026-11-07T14:45:24+00:00, book20_bid_proxy_usdt=50625, book20_ask_proxy_usdt=46058, funding_indicative=0.000050, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-3.03%, turnover=7952181. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- LIT_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=3.266300, depth_time=2026-11-07T14:45:15+00:00, book20_bid_proxy_usdt=29631, book20_ask_proxy_usdt=27306, funding_indicative=0.000050, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-4.31%, turnover=11898572. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- ONDO_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.366800, depth_time=2026-11-07T14:45:29+00:00, book20_bid_proxy_usdt=2134570, book20_ask_proxy_usdt=1457680, funding_indicative=0.000050, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-3.02%, turnover=10439441. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- PEPE_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.000005, depth_time=2026-11-07T14:45:26+00:00, book20_bid_proxy_usdt=46880, book20_ask_proxy_usdt=36742, funding_indicative=0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-3.11%, turnover=72016992. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- PUMPFUN_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.003813, depth_time=2026-11-07T14:45:10+00:00, book20_bid_proxy_usdt=2887907, book20_ask_proxy_usdt=2422746, funding_indicative=-0.000024, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-6.65%, turnover=13476999. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- TRUMPOFFICIAL_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=1.208000, depth_time=2026-11-07T14:45:18+00:00, book20_bid_proxy_usdt=1789522, book20_ask_proxy_usdt=1584289, funding_indicative=-0.000017, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-4.10%, turnover=8782775. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- UAI_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.126700, depth_time=2026-11-07T14:45:07+00:00, book20_bid_proxy_usdt=182518, book20_ask_proxy_usdt=142288, funding_indicative=-0.000139, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-34.00%, turnover=24138190. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- WLD_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.340500, depth_time=2026-11-07T14:45:41+00:00, book20_bid_proxy_usdt=2738935, book20_ask_proxy_usdt=3630140, funding_indicative=-0.000197, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-1.97%, turnover=28394692. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- XLM_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=0.152460, depth_time=2026-11-07T14:45:39+00:00, book20_bid_proxy_usdt=127053, book20_ask_proxy_usdt=297308, funding_indicative=-0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-2.08%, turnover=20840918. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- XRP_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=1.168400, depth_time=2026-11-07T14:45:44+00:00, book20_bid_proxy_usdt=3528704, book20_ask_proxy_usdt=4200874, funding_indicative=0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-1.66%, turnover=279855817. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- ZEC_USDT: quote_utc=2026-11-07T14:45:03+00:00, last15m_closed_end=2026-11-07T14:45+00:00, prior8high=1294.230000, depth_time=2026-11-07T14:45:12+00:00, book20_bid_proxy_usdt=440564, book20_ask_proxy_usdt=104019, funding_indicative=0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-5.42%, turnover=2110160732. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ADA_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=0.183100, depth_time=2026-11-07T15:00:43+00:00, book20_bid_proxy_usdt=8730243, book20_ask_proxy_usdt=7855301, funding_indicative=0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-2.82%, turnover=19455126. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ANTHROPIC_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=1405.020000, depth_time=2026-11-07T15:00:20+00:00, book20_bid_proxy_usdt=21919, book20_ask_proxy_usdt=22294, funding_indicative=0.000050, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-5.55%, turnover=7564228. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- BTW_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=1.153000, depth_time=2026-11-07T15:00:15+00:00, book20_bid_proxy_usdt=16964, book20_ask_proxy_usdt=25892, funding_indicative=-0.000064, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-6.20%, turnover=5821323. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- DASH_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=46.820000, depth_time=2026-11-07T15:00:46+00:00, book20_bid_proxy_usdt=881450, book20_ask_proxy_usdt=620574, funding_indicative=0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-2.73%, turnover=7899021. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- DOT_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=0.906000, depth_time=2026-11-07T15:00:29+00:00, book20_bid_proxy_usdt=462742, book20_ask_proxy_usdt=525804, funding_indicative=-0.000038, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-3.92%, turnover=5619481. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ENA_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=0.162700, depth_time=2026-11-07T15:00:23+00:00, book20_bid_proxy_usdt=200025, book20_ask_proxy_usdt=191685, funding_indicative=0.000050, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-5.44%, turnover=29037602. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- FARTCOIN_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=0.116830, depth_time=2026-11-07T15:00:38+00:00, book20_bid_proxy_usdt=47040, book20_ask_proxy_usdt=50222, funding_indicative=0.000050, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-3.26%, turnover=6941043. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- LIT_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=3.266300, depth_time=2026-11-07T15:00:26+00:00, book20_bid_proxy_usdt=28230, book20_ask_proxy_usdt=33034, funding_indicative=0.000050, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-4.33%, turnover=11144956. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ONDO_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=0.366800, depth_time=2026-11-07T15:00:38+00:00, book20_bid_proxy_usdt=2414697, book20_ask_proxy_usdt=1422028, funding_indicative=0.000050, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-3.21%, turnover=9659979. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- PEPE_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=0.000005, depth_time=2026-11-07T15:00:35+00:00, book20_bid_proxy_usdt=37289, book20_ask_proxy_usdt=39706, funding_indicative=0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-3.55%, turnover=61320665. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- PUMPFUN_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=0.003796, depth_time=2026-11-07T15:00:12+00:00, book20_bid_proxy_usdt=2700605, book20_ask_proxy_usdt=2415606, funding_indicative=-0.000033, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-7.46%, turnover=13180387. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- TRUMPOFFICIAL_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=1.208000, depth_time=2026-11-07T15:00:25+00:00, book20_bid_proxy_usdt=1366524, book20_ask_proxy_usdt=1602682, funding_indicative=-0.000013, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-5.26%, turnover=7883542. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- UAI_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=0.126700, depth_time=2026-11-07T15:00:08+00:00, book20_bid_proxy_usdt=207333, book20_ask_proxy_usdt=133222, funding_indicative=-0.000121, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=4, 24h_change=-33.36%, turnover=22022349. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- WLD_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=0.340500, depth_time=2026-11-07T15:00:33+00:00, book20_bid_proxy_usdt=3326214, book20_ask_proxy_usdt=3266351, funding_indicative=-0.000206, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-3.61%, turnover=25640152. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ZEC_USDT: quote_utc=2026-11-07T15:00:03+00:00, last15m_closed_end=2026-11-07T15:00+00:00, prior8high=1288.040000, depth_time=2026-11-07T15:00:17+00:00, book20_bid_proxy_usdt=80497, book20_ask_proxy_usdt=229407, funding_indicative=0.000100, next_funding_utc=2026-11-07T16:00:00+00:00, funding_cycle_h=8, 24h_change=-5.81%, turnover=1980851318. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
