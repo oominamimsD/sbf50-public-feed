@@ -1,32 +1,32 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-11-07T17:15:08Z**
-- feed_generated_utc: 2026-11-07T17:15:09+00:00
-- source_sha256: `7e9a15d9106a75d065489407a6953f530cb6d6401c428d97655e62881c90321c`
+- market_observed_utc: **2026-11-07T17:30:08Z**
+- feed_generated_utc: 2026-11-07T17:30:09+00:00
+- source_sha256: `cbe48a9c2fe4d7a5b2776dcec90a654def1ebd0f61079de6927c31a9a7a24bf1`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
 - API: 10/10 successful
 - tickers: 1198; contracts: 1190; crypto_prefilter: 1; crypto_deep: 1
-- snapshot_age_at_feed_build: 0.03 minutes (MUST RECHECK NOW against market_observed_utc)
+- snapshot_age_at_feed_build: 0.02 minutes (MUST RECHECK NOW against market_observed_utc)
 
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-11-07T17:15+00:00, close=75784.9, belowEMA20=True, EMA20down3=True
+- BTC Min15: closed_end=2026-11-07T17:30+00:00, close=75763.7, belowEMA20=True, EMA20down3=True
 - BTC Min60: closed_end=2026-11-07T17:00+00:00, close=75712.1, belowEMA20=True, EMA20down3=True
 - BTC Hour4: closed_end=2026-11-07T16:00+00:00, close=75725.9, belowEMA20=True, EMA20down3=True
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|QNT_USDT|195.150000|-1.86|-2.93|-1.93|41561833|1.03|
+|QNT_USDT|195.370000|-1.75|-2.82|-1.79|41874830|0.51|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|QNT_USDT|195.150000|196.920000|195.150000|1.36|Y|N/N|N/N|Y|N|
+|QNT_USDT|195.370000|194.580000|195.370000|0.61|N|N/N|N/N|Y|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- QNT_USDT: quote_utc=2026-11-07T17:15:00+00:00, last15m_closed_end=2026-11-07T17:15+00:00, prior8high=199.840000, depth_time=2026-11-07T17:15:07+00:00, book20_bid_proxy_usdt=50566, book20_ask_proxy_usdt=49201, funding_indicative=0.000100, next_funding_utc=2026-11-08T00:00:00+00:00, funding_cycle_h=8, 24h_change=-1.86%, turnover=41561833. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- QNT_USDT: quote_utc=2026-11-07T17:30:00+00:00, last15m_closed_end=2026-11-07T17:30+00:00, prior8high=199.840000, depth_time=2026-11-07T17:30:06+00:00, book20_bid_proxy_usdt=72112, book20_ask_proxy_usdt=74682, funding_indicative=0.000100, next_funding_utc=2026-11-08T00:00:00+00:00, funding_cycle_h=8, 24h_change=-1.75%, turnover=41874830. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
