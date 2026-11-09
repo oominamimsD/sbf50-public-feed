@@ -1,32 +1,35 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-11-09T18:45:08Z**
-- feed_generated_utc: 2026-11-09T18:45:09+00:00
-- source_sha256: `d7fed898b15ccd2b2a254a36c74c76f4b142b7d8498a3a1d36a37c3c6203231c`
+- market_observed_utc: **2026-11-09T19:00:10Z**
+- feed_generated_utc: 2026-11-09T19:00:11+00:00
+- source_sha256: `115a2d838f76870c92d15c138452a41af926bd6033fdb6c9552ea87ed12920fe`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
-- API: 10/10 successful
-- tickers: 1203; contracts: 1195; crypto_prefilter: 1; crypto_deep: 1
-- snapshot_age_at_feed_build: 0.02 minutes (MUST RECHECK NOW against market_observed_utc)
+- API: 15/15 successful
+- tickers: 1203; contracts: 1195; crypto_prefilter: 2; crypto_deep: 2
+- snapshot_age_at_feed_build: 0.03 minutes (MUST RECHECK NOW against market_observed_utc)
 
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-11-09T18:45+00:00, close=74571.1, belowEMA20=True, EMA20down3=True
-- BTC Min60: closed_end=2026-11-09T18:00+00:00, close=74755.6, belowEMA20=True, EMA20down3=False
+- BTC Min15: closed_end=2026-11-09T19:00+00:00, close=74675, belowEMA20=True, EMA20down3=True
+- BTC Min60: closed_end=2026-11-09T19:00+00:00, close=74675, belowEMA20=True, EMA20down3=True
 - BTC Hour4: closed_end=2026-11-09T16:00+00:00, close=75500.1, belowEMA20=True, EMA20down3=True
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|ZEC_USDT|1172.540000|-4.33|-6.50|-3.10|2491882901|0.09|
+|ON_USDT|0.161500|-18.84|-4.71|-17.75|5096822|6.17|
+|ZEC_USDT|1170.210000|-4.52|-6.68|-3.43|2425357464|0.09|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|ZEC_USDT|1172.540000|1158.500000|1172.540000|0.95|N|Y/Y|Y/Y|Y|N|
+|ON_USDT|0.161500|0.153800|0.161500|0.23|N|Y/Y|Y/N|Y|N|
+|ZEC_USDT|1170.210000|1158.500000|1170.460000|0.78|N|Y/Y|Y/Y|Y|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- ZEC_USDT: quote_utc=2026-11-09T18:44:59+00:00, last15m_closed_end=2026-11-09T18:45+00:00, prior8high=1198.070000, depth_time=2026-11-09T18:45:07+00:00, book20_bid_proxy_usdt=93725, book20_ask_proxy_usdt=173880, funding_indicative=0.000100, next_funding_utc=2026-11-10T00:00:00+00:00, funding_cycle_h=8, 24h_change=-4.33%, turnover=2491882901. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ON_USDT: quote_utc=2026-11-09T19:00:00+00:00, last15m_closed_end=2026-11-09T19:00+00:00, prior8high=0.172900, depth_time=2026-11-09T19:00:07+00:00, book20_bid_proxy_usdt=135262, book20_ask_proxy_usdt=71094, funding_indicative=0.000050, next_funding_utc=2026-11-09T20:00:00+00:00, funding_cycle_h=4, 24h_change=-18.84%, turnover=5096822. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ZEC_USDT: quote_utc=2026-11-09T19:00:00+00:00, last15m_closed_end=2026-11-09T19:00+00:00, prior8high=1195.790000, depth_time=2026-11-09T19:00:10+00:00, book20_bid_proxy_usdt=279995, book20_ask_proxy_usdt=218211, funding_indicative=0.000100, next_funding_utc=2026-11-10T00:00:00+00:00, funding_cycle_h=8, 24h_change=-4.52%, turnover=2425357464. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
