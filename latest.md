@@ -1,8 +1,8 @@
 # SBF50 PUBLIC READ-ONLY MARKET FEED
 
-- market_observed_utc: **2026-11-09T16:45:11Z**
-- feed_generated_utc: 2026-11-09T16:45:12+00:00
-- source_sha256: `07896472bc12b012530f6475e3bee3758ce309a31e47a2af922919761bfff27f`
+- market_observed_utc: **2026-11-09T17:00:11Z**
+- feed_generated_utc: 2026-11-09T17:00:11+00:00
+- source_sha256: `0ba441ea170230b3bcd68f21797f87d0b365f5f83d944310c2eb8ef9080cd504`
 - api_status: **PUBLIC_SNAPSHOT_OK**; public MEXC new host api.mexc.com
 - API: 15/15 successful
 - tickers: 1203; contracts: 1195; crypto_prefilter: 2; crypto_deep: 2
@@ -11,25 +11,25 @@
 **CAUTION: Research snapshot, NOT a confirmed actionable trade setup. Verify freshness <=20min and new stop/target/RR and public depth. No account permission or fills verified.**
 
 ## BTC completed-bar context
-- BTC Min15: closed_end=2026-11-09T16:45+00:00, close=74895.3, belowEMA20=False, EMA20down3=False
-- BTC Min60: closed_end=2026-11-09T16:00+00:00, close=75500.1, belowEMA20=False, EMA20down3=False
+- BTC Min15: closed_end=2026-11-09T17:00+00:00, close=75035.6, belowEMA20=False, EMA20down3=False
+- BTC Min60: closed_end=2026-11-09T17:00+00:00, close=75035.6, belowEMA20=False, EMA20down3=False
 - BTC Hour4: closed_end=2026-11-09T16:00+00:00, close=75500.1, belowEMA20=True, EMA20down3=True
 
 ## Crypto-only cross-sectional prefilter (not final signals)
 |Symbol|Last USDT|24h %|7d %|vs BTC 24h pp|24h turnover USDT|spread bp|
 |---|---:|---:|---:|---:|---:|---:|
-|ZEC_USDT|1179.410000|-3.77|-5.95|-2.97|2469693615|0.09|
-|TRUMPOFFICIAL_USDT|1.119000|-2.01|-31.60|-1.21|6417185|8.94|
+|ZEC_USDT|1194.650000|-2.53|-4.74|-1.92|2401398730|0.08|
+|QNT_USDT|195.990000|-1.97|-3.19|-1.36|42448452|0.51|
 
 ## Detailed crypto-only completed candle diagnostics
 |Symbol|Last USDT|15m 8-low|15m last close|15m volume x20 median|15m break+vol|1h below/down|4h below/down|BTC weak|ALT subgate|
 |---|---:|---:|---:|---:|---|---|---|---|---|
-|TRUMPOFFICIAL_USDT|1.119000|1.113000|1.119000|1.93|N|Y/Y|Y/Y|Y|N|
-|ZEC_USDT|1179.410000|1181.930000|1180.170000|2.03|Y|N/Y|Y/Y|Y|N|
+|QNT_USDT|195.990000|196.310000|195.990000|1.88|Y|Y/Y|N/N|Y|N|
+|ZEC_USDT|1194.650000|1173.470000|1194.890000|1.42|N|Y/Y|Y/Y|Y|N|
 
 ## Detailed time markers and risk references (NOT executable limits)
-- TRUMPOFFICIAL_USDT: quote_utc=2026-11-09T16:45:02+00:00, last15m_closed_end=2026-11-09T16:45+00:00, prior8high=1.145000, depth_time=2026-11-09T16:45:09+00:00, book20_bid_proxy_usdt=2690594, book20_ask_proxy_usdt=2614145, funding_indicative=-0.000104, next_funding_utc=2026-11-09T20:00:00+00:00, funding_cycle_h=4, 24h_change=-2.01%, turnover=6417185. target_RR/account_short_permission/settled_funding=UNKNOWN.
-- ZEC_USDT: quote_utc=2026-11-09T16:45:02+00:00, last15m_closed_end=2026-11-09T16:45+00:00, prior8high=1235.450000, depth_time=2026-11-09T16:45:07+00:00, book20_bid_proxy_usdt=316242, book20_ask_proxy_usdt=294119, funding_indicative=0.000100, next_funding_utc=2026-11-10T00:00:00+00:00, funding_cycle_h=8, 24h_change=-3.77%, turnover=2469693615. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- QNT_USDT: quote_utc=2026-11-09T17:00:01+00:00, last15m_closed_end=2026-11-09T17:00+00:00, prior8high=201.280000, depth_time=2026-11-09T17:00:10+00:00, book20_bid_proxy_usdt=70812, book20_ask_proxy_usdt=59381, funding_indicative=0.000100, next_funding_utc=2026-11-10T00:00:00+00:00, funding_cycle_h=8, 24h_change=-1.97%, turnover=42448452. target_RR/account_short_permission/settled_funding=UNKNOWN.
+- ZEC_USDT: quote_utc=2026-11-09T17:00:01+00:00, last15m_closed_end=2026-11-09T17:00+00:00, prior8high=1235.450000, depth_time=2026-11-09T17:00:07+00:00, book20_bid_proxy_usdt=340008, book20_ask_proxy_usdt=210864, funding_indicative=0.000100, next_funding_utc=2026-11-10T00:00:00+00:00, funding_cycle_h=8, 24h_change=-2.53%, turnover=2401398730. target_RR/account_short_permission/settled_funding=UNKNOWN.
 
 ## Research guards
 - Independently confirm any current candidate using real-time structure, fresh orderbook/depth, account eligibility, lower target, invalidation and adequate RR.
